@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spice Garden Restaurant</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Spice Garden</h1>
+        <p>Delicious Food, Simple Moments</p>
+    </header>
+
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h2>Welcome to Spice Garden</h2>
+
+            <p>
+                Enjoy fresh and tasty food in a friendly atmosphere.
+            </p>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Menu Section -->
+    <section id="menu">
+
+        <h2>Our Menu</h2>
+
+        <div class="menu-container">
+
+
+            <!-- Pizza -->
+            <div class="food-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80"
+                    alt="Cheese Pizza">
+
+                <h3>Cheese Pizza</h3>
+
+                <p>
+                    Fresh pizza with cheese and vegetables.
+                </p>
+
+                <strong>₹250</strong><br>
+
+       		<button onclick="showWelcome()">
+                Order Now
+            	</button>
+
+              <p id="message"></p>
+
+
+
+            </div>
+
+
+            <!-- Burger -->
+            <div class="food-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
+                    alt="Classic Burger">
+
+                <h3>Classic Burger</h3>
+
+                <p>
+                    Juicy burger served with fresh vegetables.
+                </p>
+
+                <strong>₹180</strong><br>\
+		<button onclick="showWelcome()">
+                Order Now
+            	</button>
+ 		<p id="message"></p>
+
+
+
+            </div>
+
+
+            <!-- Pasta -->
+            <div class="food-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80"
+                    alt="Creamy Pasta">
+
+                <h3>Creamy Pasta</h3>
+
+                <p>
+                    Delicious pasta prepared with creamy sauce.
+                </p>
+
+                <strong>₹220</strong><br>
+		<button onclick="showWelcome()">
+                Order Now
+            	</button>
+		 <p id="message"></p>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+
+        <h2>About Us</h2>
+
+        <p>
+            Spice Garden is a simple restaurant website created
+            using HTML, CSS and JavaScript. We serve tasty food
+            in a comfortable environment.
+        </p>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+
+        <h2>Contact Us</h2>
+
+
+        <form id="contactForm">
+
+            <label for="name">
+                Name:
+            </label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name">
+
+
+            <label for="review">
+                Review:
+            </label>
+
+            <input
+                type="text"
+                id="review"
+                placeholder="Enter your Review">
+
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+
+        <p id="formMessage"></p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            Copyright © 2026 Spice Garden Restaurant
+        </p>
+
+    </footer>
+
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
